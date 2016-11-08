@@ -16,9 +16,9 @@ install-local:: $(outdir)
 	ln -fs logo_debian_dark.png $(outdir)/logo_installer_dark.png
 
 logo_debian.png: logo_debian_lines.svg
-	rsvg-convert $< > $@
+	cp logo_pardus.png logo_debian.png
 
 logo_debian_dark.png: logo_debian_lines_dark.svg
-	rsvg-convert $< > $@
+	cp logo_pardus.png logo_debian_dark.png
 
 include ../../../../Makefile.inc
