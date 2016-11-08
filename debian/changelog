@@ -1,3 +1,9 @@
+rootskel-gtk (1.33+pardus2) unstable; urgency=medium
+
+  * Add pardus logo and Update Makefile
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 08 Nov 2016 17:49:58 +0300
+
 rootskel-gtk (1.33+pardus1) unstable; urgency=medium
 
   * Add .drone.yml
