@@ -1,3 +1,9 @@
+rootskel-gtk (1.33+pardus1) unstable; urgency=medium
+
+  * Add .drone.yml
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 08 Nov 2016 17:30:08 +0300
+
 rootskel-gtk (1.33) unstable; urgency=medium
 
   [ Colin Watson ]
