@@ -1,20 +1,27 @@
-rootskel-gtk (1.33+pardus3) unstable; urgency=medium
+rootskel-gtk (1.36) unstable; urgency=medium
 
-  * update clearlooks theme
+  [ Aurélien COUDERC ]
+  * Customize GTK controls colors to match soft Waves theme colors.
+  * Upgrade soft Waves theme banners to latest versions provided by Juliette
+    Taka BELIN.
+  * Improve banner for high contrast installer.
+  * Added myself to the list of uploaders.
 
- -- Yusuf Düzgün <yusuf.duzgun@pardus.org.tr>  Tue, 22 Nov 2016 16:19:45 +0300
+ -- Christian Perrier <bubulle@debian.org>  Fri, 09 Dec 2016 05:58:53 +0100
 
-rootskel-gtk (1.33+pardus2) unstable; urgency=medium
+rootskel-gtk (1.35) unstable; urgency=medium
 
-  * Add pardus logo and Update Makefile
+  * Use "Noto Sans Sinhala" for Sinhala (si_*) locales
 
- -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 08 Nov 2016 17:49:58 +0300
+ -- Christian Perrier <bubulle@debian.org>  Sat, 19 Nov 2016 16:13:44 +0100
 
-rootskel-gtk (1.33+pardus1) unstable; urgency=medium
+rootskel-gtk (1.34) unstable; urgency=medium
 
-  * Add .drone.yml
+  [ Aurélien COUDERC ]
+  * Adapt standard and dark installer banners to Stretch default theme
+    Soft Waves, by Juliette Taka BELIN (Closes: #793125).
 
- -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 08 Nov 2016 17:30:08 +0300
+ -- Cyril Brulebois <kibi@debian.org>  Mon, 31 Oct 2016 15:17:48 +0100
 
 rootskel-gtk (1.33) unstable; urgency=medium
 

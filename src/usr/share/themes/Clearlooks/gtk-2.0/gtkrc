@@ -26,21 +26,24 @@ style "clearlooks-default"
 	ythickness = 1
 
 	fg[NORMAL]		= "#000000" # black
-	fg[PRELIGHT]	= "#000000" # black
-	fg[SELECTED]	= "#ffffff" # white 
+	fg[PRELIGHT]		= "#000000" # black
+	fg[SELECTED]		= "#ffffff" # white 
 	fg[ACTIVE]		= "#000000" # black
-	fg[INSENSITIVE]	= "#b5b3ac" # dark beige
+	fg[INSENSITIVE]		= "#b5b3ac" # dark beige
 
 	bg[NORMAL]		= "#ede9e3"
-	bg[PRELIGHT]	= "#f9f7f3" # very light beige
-	bg[SELECTED]	= "#383838" # pardus gray
-	bg[INSENSITIVE]	= "#efebe5" # beige
+	bg[PRELIGHT]		= "#f9f7f3" # very light beige
+#	bg[SELECTED]            = "#d60052" # Debian red
+	bg[SELECTED]		= "#587e77" # light Softwaves blue-green
+	bg[INSENSITIVE]		= "#efebe5" # beige
 	bg[ACTIVE]		= "#dcd4c9" #"#d7d3ca" # dark beige
 
 	base[NORMAL]		= "#ffffff" # white 
 	base[PRELIGHT]		= "#5f8ec4" # dark beige
-	base[ACTIVE]		= "#2D2D2D" # pardus darker gray 
-	base[SELECTED]		= "#383838" # pardus gray
+#	base[ACTIVE]            = "#b20044" # Debian darker red
+	base[ACTIVE]		= "#366c6c" # darker Softwaves blue-green
+#	base[SELECTED]          = "#d60052" # Debian red
+	base[SELECTED]		= "#587e77" # light Softwaves blue-green
 	base[INSENSITIVE]	= "#e8e5de" # beige
 
 	text[NORMAL]		= "#000000" # black
@@ -74,14 +77,14 @@ style "clearlooks-wider" = "clearlooks-default"
 
 style "clearlooks-button" = "clearlooks-wider"
 {
-	bg[NORMAL]	    = "#f6f4f1"
+	bg[NORMAL]	= "#f6f4f1"
 	bg[INSENSITIVE]	= "#f2efeb"
 	bg[PRELIGHT]	= "#faf9f8"
 }
 
 style "clearlooks-notebook" = "clearlooks-wide"
 {
-	bg[NORMAL]	    = "#efebe5"
+	bg[NORMAL]	= "#efebe5"
 	bg[INSENSITIVE] = "#efebe5"
 }
 
@@ -180,3 +183,4 @@ widget_class "*.GtkFrame.GtkLabel"		style "clearlooks-frame-title"
 # notebook stuff
 widget_class "*.GtkNotebook.*.GtkEventBox"	style "clearlooks-notebook"
 widget_class "*.GtkNotebook.*.GtkViewport"	style "clearlooks-notebook"
+

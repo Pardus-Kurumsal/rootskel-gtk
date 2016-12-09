@@ -51,6 +51,9 @@ case "$language" in
     pa)
 	FONT_NAME="Lohit Punjabi"
 	;;
+    si)
+	FONT_NAME="Noto Sans Sinhala"
+	;;
     ta)
 	FONT_NAME="TSCu_Paranar"
 	FONT_SIZE=$(($FONT_SIZE + 2))

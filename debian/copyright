@@ -20,9 +20,10 @@ http://ftp.gnome.org/pub/GNOME/sources/gnome-themes/2.14/gnome-themes-2.14.3.tar
 It is written by Bill Haneman, based on Standard theme by T. Liebeck,
 and released under LGPL 2.1.
 
-src/usr/share/graphics/debian_logo_lines.svg is copyright 2014 by
-Juliette Taka BELIN <juliettetaka.belin@gmail.com>, licensed under the GNU GPL
-version 2, or later.
+src/usr/share/graphics/logo_debian_{softwaves,softwaves_dark}.svg are
+copyright 2016 by Juliette Taka BELIN <juliettetaka.belin@gmail.com>, licensed
+under the GNU GPL version 2, or later. Minor changes were made by Aurélien
+COUDERC <zecoucou@free.fr> to make them suitable for packaging.
 
 On Debian systems, the complete text of the GNU GPL version 2 can be found in
 /usr/share/common-licenses/GPL-2, and the complete text of the GNU LGPL 2.1
