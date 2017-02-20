@@ -1,3 +1,9 @@
+rootskel-gtk (1.36pardus1) pardus; urgency=medium
+
+  * Apply changes for pardus
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 20 Feb 2017 14:42:10 +0300
+
 rootskel-gtk (1.36) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
