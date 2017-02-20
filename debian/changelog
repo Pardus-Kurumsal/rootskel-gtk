@@ -22,6 +22,24 @@ rootskel-gtk (1.34) unstable; urgency=medium
     Soft Waves, by Juliette Taka BELIN (Closes: #793125).
 
  -- Cyril Brulebois <kibi@debian.org>  Mon, 31 Oct 2016 15:17:48 +0100
+ 
+rootskel-gtk (1.33+pardus3) unstable; urgency=medium
+
+  * update clearlooks theme
+
+ -- Yusuf Düzgün <yusuf.duzgun@pardus.org.tr>  Tue, 22 Nov 2016 16:19:45 +0300
+
+rootskel-gtk (1.33+pardus2) unstable; urgency=medium
+
+  * Add pardus logo and Update Makefile
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 08 Nov 2016 17:49:58 +0300
+
+rootskel-gtk (1.33+pardus1) unstable; urgency=medium
+
+  * Add .drone.yml
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 08 Nov 2016 17:30:08 +0300
 
 rootskel-gtk (1.33) unstable; urgency=medium
 
