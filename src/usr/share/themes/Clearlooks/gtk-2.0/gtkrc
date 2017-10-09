@@ -5,7 +5,7 @@ style "clearlooks-default"
 	GtkPaned	::handle_size		= 6
 	GtkRange	::slider_width		= 15
 	GtkRange	::stepper_size		= 15
-	
+
 	GtkScrollbar	::min_slider_length	= 30
 	GtkCheckButton	::indicator_size	= 14
 	GtkMenuBar	::internal-padding	= 0
@@ -25,20 +25,20 @@ style "clearlooks-default"
 	xthickness = 1
 	ythickness = 1
 
-	fg[NORMAL]		= "#d4d4d4"
-	fg[PRELIGHT]	= "#d4d4d4"
-	fg[SELECTED]	= "#1c1c1c"  
-	fg[ACTIVE]		= "#d4d4d4"
+	fg[NORMAL]		= "#4c4c4c"
+	fg[PRELIGHT]	= "#4c4c4c"
+	fg[SELECTED]	= "#1c1c1c"
+	fg[ACTIVE]		= "#4c4c4c"
 	fg[INSENSITIVE]	= "#848484"
 
-	bg[NORMAL]		= "#4c4c4c"
-	bg[PRELIGHT]	= "#4c4c4c"
+	bg[NORMAL]		= "#1c1c1c"
+	bg[PRELIGHT]	= "#1c1c1c"
 	bg[SELECTED]	= "#ffcb08"
 	bg[INSENSITIVE]	= "#6c6c6c"
 	bg[ACTIVE]		= "#6c6c6c"
 
-	base[NORMAL]		= "#1c1c1c" 
-	base[PRELIGHT]		= "#1c1c1c"
+	base[NORMAL]		= "#4c4c4c"
+	base[PRELIGHT]		= "#4c4c4c"
 	base[ACTIVE]		= "#ffcb08"
 	base[SELECTED]		= "#ffcb08"
 	base[INSENSITIVE]	= "#000000"
@@ -49,13 +49,13 @@ style "clearlooks-default"
 	text[SELECTED]		= "#1c1c1c"
 	text[INSENSITIVE]	= "#848484"
 
-	engine "clearlooks" 
+	engine "clearlooks"
 	{
 	#scrollbar_color	= "#ffcb08"
 	menubarstyle		= 2	# 0 = flat, 1 = sunken, 2 = flat gradient
 	#menuitemstyle		= 1	# 0 = flat, 1 = 3d-ish (gradient), 2 = 3d-ish (button)
 	#listviewitemstyle	= 1	# 0 = flat, 1 = 3d-ish (gradient)
-	#progressbarstyle	= 1	# 0 = candy bar, 1 = fancy candy bar, 2 = flat
+	progressbarstyle	= 2	# 0 = candy bar, 1 = fancy candy bar, 2 = flat
 	animation		= FALSE
 	}
 }
@@ -82,7 +82,7 @@ style "clearlooks-button" = "clearlooks-wider"
 style "clearlooks-notebook" = "clearlooks-wide"
 {
 	bg[NORMAL]	    = "#1c1c1c"
-	bg[INSENSITIVE] = "#1c1c1c"
+	bg[INSENSITIVE] = "#6c6c6c"
 }
 
 style "clearlooks-tasklist" = "clearlooks-default"
@@ -100,14 +100,14 @@ style "clearlooks-menu" = "clearlooks-default"
 
 style "clearlooks-menubar-item" = "clearlooks-button"
 {
-	fg[PRELIGHT] = "#d4d4d4"
+	fg[PRELIGHT] = "#4c4c4c"
 }
 
 style "clearlooks-menu-item" = "clearlooks-default"
 {
 	xthickness	= 2
 	ythickness	= 3
-	fg[PRELIGHT]	= "#d4d4d4"
+	fg[PRELIGHT]	= "#4c4c4c"
 	text[PRELIGHT]	= "#4c4c4c"
 }
 
@@ -133,7 +133,7 @@ style "clearlooks-progressbar" = "clearlooks-wide"
 {
 	xthickness	= 1
 	ythickness	= 1
-	fg[PRELIGHT]	= "#d4d4d4"
+	fg[PRELIGHT]	= "#4c4c4c"
 }
 
 style "clearlooks-combo" = "clearlooks-button"
@@ -144,7 +144,7 @@ style "clearlooks-menubar" = "blackrock-default"
 {
 	bg[NORMAL]	= "#f8e28c"
 }
-	
+
 # widget styles
 class "GtkWidget"	style "clearlooks-default"
 class "GtkButton"	style "clearlooks-button"
@@ -157,7 +157,7 @@ class "GtkEntry"	style "clearlooks-wider"
 class "GtkMenuItem"	style "clearlooks-menu-item"
 class "GtkNotebook"	style "clearlooks-notebook"
 class "GtkProgressBar"	style "clearlooks-progressbar"
- 
+
 #class "GtkMenuBar"	style "clearlooks-menubar"
 
 widget_class "*MenuItem.*"			style "clearlooks-menu-item"
