@@ -1,3 +1,9 @@
+rootskel-gtk (1.36pardus4) pardus; urgency=medium
+
+  * Update defult d-i theme for pardus
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 09 Oct 2017 14:46:16 +0300
+
 rootskel-gtk (1.36pardus3) pardus; urgency=medium
 
   * Add extend-diff-ignore into source local-options
