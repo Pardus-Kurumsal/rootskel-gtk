@@ -31,11 +31,11 @@ style "clearlooks-default"
 	fg[ACTIVE]		= "#d4d4d4"
 	fg[INSENSITIVE]	= "#848484"
 
-	bg[NORMAL]		= "#1c1c1c"
-	bg[PRELIGHT]	= "#1c1c1c"
+	bg[NORMAL]		= "#4c4c4c"
+	bg[PRELIGHT]	= "#4c4c4c"
 	bg[SELECTED]	= "#ffcb08"
-	bg[INSENSITIVE]	= "#1c1c1c"
-	bg[ACTIVE]		= "#1c1c1c"
+	bg[INSENSITIVE]	= "#6c6c6c"
+	bg[ACTIVE]		= "#6c6c6c"
 
 	base[NORMAL]		= "#1c1c1c" 
 	base[PRELIGHT]		= "#1c1c1c"
@@ -74,9 +74,9 @@ style "clearlooks-wider" = "clearlooks-default"
 
 style "clearlooks-button" = "clearlooks-wider"
 {
-	bg[NORMAL]	    = "#1c1c1c"
+	bg[NORMAL]	    = "#2c2c2c"
 	bg[INSENSITIVE]	= "#383838"
-	bg[PRELIGHT]	= "#3c3c3c"
+	bg[PRELIGHT]	= "#4c4c4c"
 }
 
 style "clearlooks-notebook" = "clearlooks-wide"
@@ -108,7 +108,7 @@ style "clearlooks-menu-item" = "clearlooks-default"
 	xthickness	= 2
 	ythickness	= 3
 	fg[PRELIGHT]	= "#d4d4d4"
-	text[PRELIGHT]	= "#d4d4d4"
+	text[PRELIGHT]	= "#4c4c4c"
 }
 
 style "clearlooks-tree" = "clearlooks-default"
