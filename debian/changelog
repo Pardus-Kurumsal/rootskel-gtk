@@ -1,3 +1,9 @@
+rootskel-gtk (1.36pardus7) onyedi; urgency=medium
+
+  * Update gtk theme
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 10 Oct 2017 09:33:35 +0300
+
 rootskel-gtk (1.36pardus6) onyedi; urgency=medium
 
   * Reverse some colors
