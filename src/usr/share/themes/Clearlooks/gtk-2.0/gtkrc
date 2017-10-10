@@ -25,11 +25,11 @@ style "clearlooks-default"
 	xthickness = 1
 	ythickness = 1
 
-	fg[NORMAL]		= "#4c4c4c"
-	fg[PRELIGHT]	= "#4c4c4c"
+	fg[NORMAL]		= "#d4d4d4"
+	fg[PRELIGHT]	= "#d4d4d4"
 	fg[SELECTED]	= "#1c1c1c"
 	fg[ACTIVE]		= "#4c4c4c"
-	fg[INSENSITIVE]	= "#848484"
+	fg[INSENSITIVE]	= "#4c4c4c"
 
 	bg[NORMAL]		= "#1c1c1c"
 	bg[PRELIGHT]	= "#1c1c1c"
@@ -53,9 +53,9 @@ style "clearlooks-default"
 	{
 	#scrollbar_color	= "#ffcb08"
 	menubarstyle		= 2	# 0 = flat, 1 = sunken, 2 = flat gradient
-	#menuitemstyle		= 1	# 0 = flat, 1 = 3d-ish (gradient), 2 = 3d-ish (button)
+	menuitemstyle		= 0	# 0 = flat, 1 = 3d-ish (gradient), 2 = 3d-ish (button)
 	#listviewitemstyle	= 1	# 0 = flat, 1 = 3d-ish (gradient)
-	progressbarstyle	= 2	# 0 = candy bar, 1 = fancy candy bar, 2 = flat
+	progressbarstyle	= 1	# 0 = candy bar, 1 = fancy candy bar, 2 = flat
 	animation		= FALSE
 	}
 }
@@ -74,9 +74,9 @@ style "clearlooks-wider" = "clearlooks-default"
 
 style "clearlooks-button" = "clearlooks-wider"
 {
-	bg[NORMAL]	    = "#2c2c2c"
+	bg[NORMAL]	    = "#4c4c4c"
 	bg[INSENSITIVE]	= "#383838"
-	bg[PRELIGHT]	= "#4c4c4c"
+	bg[PRELIGHT]	= "#7c7c7c"
 }
 
 style "clearlooks-notebook" = "clearlooks-wide"
@@ -107,8 +107,8 @@ style "clearlooks-menu-item" = "clearlooks-default"
 {
 	xthickness	= 2
 	ythickness	= 3
-	fg[PRELIGHT]	= "#4c4c4c"
-	text[PRELIGHT]	= "#4c4c4c"
+	fg[PRELIGHT]	= "#d4d4d4"
+	text[PRELIGHT]	= "#1c1c1c"
 }
 
 style "clearlooks-tree" = "clearlooks-default"
@@ -133,7 +133,7 @@ style "clearlooks-progressbar" = "clearlooks-wide"
 {
 	xthickness	= 1
 	ythickness	= 1
-	fg[PRELIGHT]	= "#4c4c4c"
+	fg[PRELIGHT]	= "#1c1c1c"
 }
 
 style "clearlooks-combo" = "clearlooks-button"
